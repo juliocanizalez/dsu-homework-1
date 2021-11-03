@@ -15,7 +15,7 @@ public class LinkedHashSetExample {
     lhSet.add("Valor5");
     //definiendo iterador para recorrer la lista
     Iterator<String> i = lhSet.iterator();
-    System.out.println("LinkedHashSet Add");
+    System.out.println("\nLinkedHashSet Add");
     while (i.hasNext()) {
       System.out.println(i.next());
     }
@@ -39,7 +39,7 @@ public class LinkedHashSetExample {
       }
     }
 
-    System.out.println("LinkedHashSet Update");
+    System.out.println("\nLinkedHashSet Update");
     for (String s : lhSet) {
       System.out.println(s);
     }
@@ -48,7 +48,7 @@ public class LinkedHashSetExample {
   void removeValue(int i){
     String value = String.format("Valor%d", i);
     lhSet.remove(value);
-    System.out.println("LinkedHashSet Remove");
+    System.out.println("\nLinkedHashSet Remove");
     for (String s : lhSet) {
       System.out.println(s);
     }
