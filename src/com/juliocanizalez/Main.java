@@ -8,6 +8,7 @@ public class Main {
     TreeSetExample tSet = new TreeSetExample();
     ArrayListExample arrList = new ArrayListExample();
     VectorExample vector = new VectorExample();
+    LinkedListExample linkedList = new LinkedListExample();
 
     // HashSet Example
     hSet.addValues();
@@ -33,5 +34,11 @@ public class Main {
     vector.addValues();
     vector.updateValue(2, "Vector");
     vector.removeValue(2);
+
+    // LinkedList Example
+    linkedList.addValues();
+    linkedList.removeValue(0);
+    linkedList.updateValue("Valor1", "LinkedList");
+
   }
 }
