@@ -10,6 +10,7 @@ public class Main {
     VectorExample vector = new VectorExample();
     LinkedListExample linkedList = new LinkedListExample();
     PriorityQueueExample pQueue = new PriorityQueueExample();
+    HashTableExample hashTable = new HashTableExample();
 
     // HashSet Example
     hSet.addValues();
@@ -45,5 +46,10 @@ public class Main {
     pQueue.addValues();
     pQueue.removeValue(15);
     pQueue.updateValue(5, 24);
+
+    //HashTable Example
+    hashTable.addValues();
+    hashTable.removeValue(1);
+    hashTable.updateValue(2, "HashTable");
   }
 }
