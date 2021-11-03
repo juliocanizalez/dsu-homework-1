@@ -12,6 +12,7 @@ public class Main {
     PriorityQueueExample pQueue = new PriorityQueueExample();
     HashTableExample hashTable = new HashTableExample();
     HashMapExample hashMap = new HashMapExample();
+    LinkedHashMapExample lHashMap = new LinkedHashMapExample();
 
     // HashSet Example
     hSet.addValues();
@@ -57,5 +58,10 @@ public class Main {
     hashMap.addValues();
     hashMap.updateValue("El Salvador", "Sonsonate");
     hashMap.removeValue("El Salvador");
+
+    // LinkedHashMap Example
+    lHashMap.addValues();
+    lHashMap.updateValue(2, "LinkedHashMap");
+    lHashMap.removeValue(2);
   }
 }
