@@ -6,6 +6,7 @@ public class Main {
     HashSetExample hSet = new HashSetExample();
     LinkedHashSetExample lhSet = new LinkedHashSetExample();
     TreeSetExample tSet = new TreeSetExample();
+    ArrayListExample arrList = new ArrayListExample();
 
     // HashSet Example
     hSet.addValues();
@@ -21,5 +22,10 @@ public class Main {
     tSet.addValues();
     tSet.removeValue(2);
     tSet.updateValue(1, "TreeSetExample");
+
+    // ArrayList Example
+    arrList.addValues();
+    arrList.updateValue(2, "ArrayList");
+    arrList.removeValue(2);
   }
 }
