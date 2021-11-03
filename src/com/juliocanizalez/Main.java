@@ -9,6 +9,7 @@ public class Main {
     ArrayListExample arrList = new ArrayListExample();
     VectorExample vector = new VectorExample();
     LinkedListExample linkedList = new LinkedListExample();
+    PriorityQueueExample pQueue = new PriorityQueueExample();
 
     // HashSet Example
     hSet.addValues();
@@ -40,5 +41,9 @@ public class Main {
     linkedList.removeValue(0);
     linkedList.updateValue("Valor1", "LinkedList");
 
+    // Priority Queue Example
+    pQueue.addValues();
+    pQueue.removeValue(15);
+    pQueue.updateValue(5, 24);
   }
 }
