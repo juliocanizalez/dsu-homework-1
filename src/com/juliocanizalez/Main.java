@@ -13,6 +13,7 @@ public class Main {
     HashTableExample hashTable = new HashTableExample();
     HashMapExample hashMap = new HashMapExample();
     LinkedHashMapExample lHashMap = new LinkedHashMapExample();
+    TreeMapExample treeMap = new TreeMapExample();
 
     // HashSet Example
     hSet.addValues();
@@ -63,5 +64,10 @@ public class Main {
     lHashMap.addValues();
     lHashMap.updateValue(2, "LinkedHashMap");
     lHashMap.removeValue(2);
+
+    // TreeMap Example
+    treeMap.addValues();
+    treeMap.updateValue(1, "TreeMap");
+    treeMap.removeValue(1);
   }
 }
