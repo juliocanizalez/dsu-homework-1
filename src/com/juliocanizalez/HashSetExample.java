@@ -12,14 +12,14 @@ public class HashSetExample {
     hSet.add("Valor4");
     hSet.add("Valor5");
     hSet.add("Valor5");//HashSet no permite duplicados
-    System.out.println("Add");
+    System.out.println("HashSet Add");
     System.out.println(hSet);
   }
 
   void removeValue(int i) {
     String value = String.format("Valor%d", i);
     hSet.remove(value);
-    System.out.println("Remove");
+    System.out.println("HashSet Remove");
     System.out.println(hSet);
   }
 
@@ -33,7 +33,7 @@ public class HashSetExample {
       }
     }
 
-    System.out.println("Update");
+    System.out.println("HashSet Update");
     System.out.println(hSet);
   }
 
